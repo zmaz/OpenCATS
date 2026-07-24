@@ -4,8 +4,8 @@
 # Add a candidate with a resume, parsed the same way the UI parses it
 curl -X POST "http://localhost:8080/index.php?m=api&a=addCandidate" \
   -H "Authorization: Bearer <your API_KEY>" \
-  -F "firstName=Supreme" \
-  -F "lastName=Test" \
+  -F "firstName=" \
+  -F "lastName=" \
   -F "email1=test@example.com" \
   -F "resume=@/path/to/tailored_resume.pdf"
 
